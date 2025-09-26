@@ -1,7 +1,9 @@
-import java.util.*; // Importing the entire utility package (not required here, but included as requested)
+import java.util.*; 
 
 public class HelloWorld {
     public static void main(String[] args) {
+    	int a = 10, b = 5;
+    	a = a+b;
         System.out.println("Hello, World!");
     }
 }
